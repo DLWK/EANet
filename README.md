@@ -1,7 +1,7 @@
 ## [EANet:  Iterative Edge Attention Network for Medical Image Segmentation] 
 by Kun Wang, Xiaohong Zhang, Xiangbo Zhang et al.
 ## Submitted to the Journal of Pattern Recognition （Under review） 
-## Introduction
+## EANet framework
 ![framework](./fig/1.png) 
 ## Prerequisites
 - [Python 3.5](https://www.python.org/)
