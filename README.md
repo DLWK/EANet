@@ -12,7 +12,7 @@ by Kun Wang, Xiaohong Zhang, Xiangbo Zhang et al.
 
 ## Clone repository
 ```shell
-https://github.com/DLWK/EANet.git
+git clone https://github.com/DLWK/EANet.git
 cd EANet/
 ```
 ## Download dataset
