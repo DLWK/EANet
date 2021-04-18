@@ -23,3 +23,5 @@ Download the datasets and unzip them into `data` folder
  cd train/
  python3 train.py
 ```
+# Tips
+If you have any questions about our work, please do not hesitate to contact us by emails.
