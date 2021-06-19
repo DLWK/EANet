@@ -3,7 +3,7 @@ by Kun Wang, Xiaohong Zhang, Xiangbo Zhang et al.
 
 ## Submitted to the journal of " Pattern Recognition " （Under Review）
 ### 1.1. 🔥NEWS🔥 :
-- [2021/04/22]fire: Release the inference code!
+- [2021/04/22]:fire: Release the inference code!
 - [2021/04/20] Create repository.
 ## Visualization Demo
 ![gif](./fig/my.gif) 
