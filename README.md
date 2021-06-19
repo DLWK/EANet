@@ -44,7 +44,7 @@ only the boundary-related information. Finally, a multi-level pairwise regressio
 (MPR) module is designed to combine the complementary edge and region information for refining the ambiguous structure. This iterative optimization helps
 to learn better representations and more accurate saliency maps. Extensive experimental results demonstrate that the proposed network achieves superior segmentation performance to state-of-the-art methods in four different challenging medical segmentation tasks, including lung nodule segmentation, COVID-19 infection segmentation, lung segmentation, and
 thyroid nodule segmentation.
-## EANet framework
+## Overview framework
 <!-- ![framework](./fig/1.png)  -->
 <p align="center">
     <img src="./fig/1.png"/> <br />
