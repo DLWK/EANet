@@ -29,7 +29,22 @@ Download the datasets and unzip them into `data` folder
  cd train/
  python3 train.py
 ```
-### 1.2. State-of-the-art Approaches  
+
+### 1.2. Introduction
+Accurate and automatic segmentation of medical images can greatly assist the
+clinical diagnosis and analysis. However, it remains a challenging task due to (1)
+the diversity of scale in the medical image targets and (2) the complex context
+environments of medical images, including ambiguity of structural boundaries,
+complexity of shapes, and the heterogeneity of textures. To comprehensively
+tackle these challenges, we propose a novel and effective iterative edge attention
+network (EANet) for medical image segmentation with steps as follows. First,
+we propose a dynamic scale-aware context (DSC) module, which dynamically
+adjusts the receptive fields to extract multi-scale contextual information efficiently. Second, an edge-attention preservation (EAP) module is employed to
+guide effectively removes noise and helps the edge stream focus on processing
+only the boundary-related information. Finally, a multi-level pairwise regression
+(MPR) module is designed to combine the complementary edge and region information for refining the ambiguous structure. This iterative optimization helps
+to learn better representations and more accurate saliency maps. Extensive experimental results demonstrate that the proposed network achieves superior segmentation performance to state-of-the-art methods in four different challenging medical segmentation tasks, including lung nodule segmentation, COVID-19 infection segmentation, lung segmentation, and thyroid nodule segmentation.
+### 1.3. State-of-the-art Approaches  
 1. "CE-Net: Context encoder network for 2d medical image segmentation" TMI, 2019.
 doi:https://ieeexplore.ieee.org/abstract/document/8662594/
 2. "Recurrent Residual Convolutional Neural Network based on U-Net (R2U-Net) for Medical Image Segmentation" 2018.
