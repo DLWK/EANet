@@ -42,6 +42,6 @@ doi: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7329239/
 6. "FCN8s：Fully Convolutional Networks for Semantic Segmentation" CVPR, 2015.
 doi:https://arxiv.org/abs/1411.4038
 ## 1.3. Visualization Results:
-![lung nodule](./fig/lung nodule.png) 
+![lungnodule](./fig/lung nodule.png) 
 # Tips
 If you have any questions about our work, please do not hesitate to contact us by emails.
