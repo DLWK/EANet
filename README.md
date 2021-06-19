@@ -8,7 +8,7 @@ by Kun Wang, Xiaohong Zhang, Xiangbo Zhang et al.
 ## Visualization Demo
 ![gif](./fig/my.gif) 
 ## EANet framework
-
+![framework](./fig/1.png) 
 ## Prerequisites
 - [Python 3.5](https://www.python.org/)
 - [Pytorch 1.3](http://pytorch.org/)
