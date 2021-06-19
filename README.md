@@ -43,6 +43,7 @@ doi: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7329239/
 doi:https://arxiv.org/abs/1411.4038
 ## 1.3. Visualization Results
 ![framework](./fig/covid.png) 
+![framework](./fig/jzx.png) 
 # Tips
 If you have any questions about our work, please do not hesitate to contact us by emails.
 
