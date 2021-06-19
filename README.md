@@ -2,7 +2,8 @@
 by Kun Wang, Xiaohong Zhang, Xiangbo Zhang et al.
 ### 1.1. 🔥NEWS🔥 :
 ## Submitted to the journal of " Pattern Recognition " （Under review） 
-
+- [2021/04/22] Release the inference code!
+- [2021/04/20] Create repository.
 ## Visualization Demo
 ![gif](./fig/my.gif) 
 ## EANet framework
