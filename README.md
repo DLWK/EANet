@@ -70,6 +70,15 @@ doi: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7329239/
 6. "FCN8s：Fully Convolutional Networks for Semantic Segmentation" CVPR, 2015.
 doi:https://arxiv.org/abs/1411.4038
 ## 1.3. Visualization Results
+<p align="center">
+    <img src="./fig/covid.png"/> <br />
+    <em> 
+    Figure 2:Visual comparison of COVID-19 infection segmentation results, where the red and
+green labels indicate the predicted segmentation and ground truth, respectively.
+    </em>
+</p>
+
+
 ![framework](./fig/covid.png)
 Visual comparison of COVID-19 infection segmentation results, where the red and
 green labels indicate the predicted segmentation and ground truth, respectively.
