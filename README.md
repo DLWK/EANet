@@ -49,8 +49,12 @@ thyroid nodule segmentation.
 <p align="center">
     <img src="./fig/1.png"/> <br />
     <em> 
-    Figure 1: Overview of the proposed PraNet, which consists of three reverse attention 
-    modules with a parallel partial decoder connection. See § 2 in the paper for details.
+    Figure 1: Overview of the proposed EANet. Our network is in an encoder-decoder style,
+it consists of the VGG-19 feature encoder E1 ∼ E5, dynamic scale-aware context (DSC) module, edge attention preservation (EAP) module, the feature decoder
+D1 ∼ D5 and multilevel pairwise regression (MPR) module. HFF denotes hybrid feature fusion block, which is
+a component of MPR. The final prediction is the generated global map (Sg) after iterative
+optimization by combining edge information and region information. The Si, {i = 2, 3, 4, 5}
+indicates the feature map of the side-output laye.
     </em>
 </p>
 ### 1.3. State-of-the-art Approaches  
