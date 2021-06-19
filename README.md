@@ -45,7 +45,14 @@ only the boundary-related information. Finally, a multi-level pairwise regressio
 to learn better representations and more accurate saliency maps. Extensive experimental results demonstrate that the proposed network achieves superior segmentation performance to state-of-the-art methods in four different challenging medical segmentation tasks, including lung nodule segmentation, COVID-19 infection segmentation, lung segmentation, and
 thyroid nodule segmentation.
 ## EANet framework
-![framework](./fig/1.png) 
+<!-- ![framework](./fig/1.png)  -->
+<p align="center">
+    <img src="./fig/1.png"/> <br />
+    <em> 
+    Figure 1: Overview of the proposed PraNet, which consists of three reverse attention 
+    modules with a parallel partial decoder connection. See § 2 in the paper for details.
+    </em>
+</p>
 ### 1.3. State-of-the-art Approaches  
 1. "CE-Net: Context encoder network for 2d medical image segmentation" TMI, 2019.
 doi:https://ieeexplore.ieee.org/abstract/document/8662594/
