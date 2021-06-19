@@ -45,7 +45,10 @@ doi:https://arxiv.org/abs/1411.4038
 ![framework](./fig/covid.png) 
 ![framework](./fig/jzx.png) 
 ## 1.4 Visualization Results
-![framework](./fig/33.png) 
+![framework](./fig/33.png)
+Visual comparison of feature maps for showing the effect of multi-level pairwise
+regression module (MPR). D5 ∼ D1 denote the feature maps of each decoder block. The odd
+and even rows show the baseline results without or with MPR, respectively.
 # Tips
 If you have any questions about our work, please do not hesitate to contact us by emails.
 
