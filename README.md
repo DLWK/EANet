@@ -7,7 +7,6 @@ by Kun Wang, Xiaohong Zhang, Xiangbo Zhang et al.
 - [2021/04/20] Create repository.
 ## Visualization Demo
 ![gif](./fig/my.gif) 
-![11](./fig/33.png) 
 ## EANet framework
 
 ## Prerequisites
