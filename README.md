@@ -48,4 +48,4 @@ If you have any questions about our work, please do not hesitate to contact us b
 
 
 
-**[⬆ back to top](#0-preface))**
+**[⬆ back to top](#EANet:Iterative Edge Attention Network for Medical Image Segmentation)**
