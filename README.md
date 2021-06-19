@@ -83,9 +83,8 @@ green labels indicate the predicted segmentation and ground truth, respectively.
 <p align="center">
     <img src="./fig/jzx.png"/> <br />
     <em> 
-    Figure 3:Visual comparison of feature maps for showing the effect of multi-level pairwise
-regression module (MPR). D5 ∼ D1 denote the feature maps of each decoder block. The odd
-and even rows show the baseline results without or with MPR, respectively.
+    Figure 3:The visual comparison of results on the TN-SCUI dataset, where the blue and
+green labels indicate the predicted segmentation and ground truth, respectively
     </em>
 </p>
 
