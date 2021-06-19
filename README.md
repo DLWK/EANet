@@ -9,7 +9,7 @@ by Kun Wang, Xiaohong Zhang, Xiangbo Zhang et al.
 ![gif](./fig/my.gif) 
 ![11](./fig/33.png) 
 ## EANet framework
-![framework](./fig/1.png) 
+
 ## Prerequisites
 - [Python 3.5](https://www.python.org/)
 - [Pytorch 1.3](http://pytorch.org/)
@@ -43,6 +43,6 @@ doi: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7329239/
 6. "FCN8s：Fully Convolutional Networks for Semantic Segmentation" CVPR, 2015.
 doi:https://arxiv.org/abs/1411.4038
 ## 1.3. Visualization Results
-
+![framework](./fig/covid.png) 
 # Tips
 If you have any questions about our work, please do not hesitate to contact us by emails.
