@@ -7,6 +7,7 @@ by Kun Wang, Xiaohong Zhang, Xiangbo Zhang et al.
 - [2021/04/20] Create repository.
 ## Visualization Demo
 ![gif](./fig/my.gif) 
+![11](./fig/lung nodule.png) 
 ## EANet framework
 ![framework](./fig/1.png) 
 ## Prerequisites
@@ -42,6 +43,6 @@ doi: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7329239/
 6. "FCN8s：Fully Convolutional Networks for Semantic Segmentation" CVPR, 2015.
 doi:https://arxiv.org/abs/1411.4038
 ## 1.3. Visualization Results
-![11](./fig/lung nodule.png) 
+
 # Tips
 If you have any questions about our work, please do not hesitate to contact us by emails.
