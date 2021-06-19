@@ -42,9 +42,12 @@ doi: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7329239/
 6. "FCN8s：Fully Convolutional Networks for Semantic Segmentation" CVPR, 2015.
 doi:https://arxiv.org/abs/1411.4038
 ## 1.3. Visualization Results
-![framework](./fig/covid.png) 
+![framework](./fig/covid.png)
+Visual comparison of COVID-19 infection segmentation results, where the red and
+green labels indicate the predicted segmentation and ground truth, respectively.
 ![framework](./fig/jzx.png) 
-## 1.4 Visualization Results
+The visual comparison of results on the TN-SCUI dataset, where the blue and
+green labels indicate the predicted segmentation and ground truth, respectively.
 ![framework](./fig/33.png)
 Visual comparison of feature maps for showing the effect of multi-level pairwise
 regression module (MPR). D5 ∼ D1 denote the feature maps of each decoder block. The odd
