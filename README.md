@@ -7,8 +7,7 @@ by Kun Wang, Xiaohong Zhang, Xiangbo Zhang et al.
 - [2021/04/20] Create repository.
 ## Visualization Demo
 ![gif](./fig/my.gif) 
-## EANet framework
-![framework](./fig/1.png) 
+
 ## Prerequisites
 - [Python 3.5](https://www.python.org/)
 - [Pytorch 1.3](http://pytorch.org/)
@@ -43,7 +42,10 @@ adjusts the receptive fields to extract multi-scale contextual information effic
 guide effectively removes noise and helps the edge stream focus on processing
 only the boundary-related information. Finally, a multi-level pairwise regression
 (MPR) module is designed to combine the complementary edge and region information for refining the ambiguous structure. This iterative optimization helps
-to learn better representations and more accurate saliency maps. Extensive experimental results demonstrate that the proposed network achieves superior segmentation performance to state-of-the-art methods in four different challenging medical segmentation tasks, including lung nodule segmentation, COVID-19 infection segmentation, lung segmentation, and thyroid nodule segmentation.
+to learn better representations and more accurate saliency maps. Extensive experimental results demonstrate that the proposed network achieves superior segmentation performance to state-of-the-art methods in four different challenging medical segmentation tasks, including lung nodule segmentation, COVID-19 infection segmentation, lung segmentation, and
+thyroid nodule segmentation.
+## EANet framework
+![framework](./fig/1.png) 
 ### 1.3. State-of-the-art Approaches  
 1. "CE-Net: Context encoder network for 2d medical image segmentation" TMI, 2019.
 doi:https://ieeexplore.ieee.org/abstract/document/8662594/
