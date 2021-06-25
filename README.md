@@ -9,7 +9,7 @@ by Kun Wang, Xiaohong Zhang, Xiangbo Zhang et al.
 ### 1.1. 🔥NEWS🔥 :
 - [2021/04/22]:fire: Release the inference code!
 - [2021/04/20] Create repository.
-## Visualization Demo
+## Video Demo
 ![gif](./fig/my.gif) 
 
 ## Prerequisites
