@@ -1,10 +1,15 @@
 # EANet: Iterative Edge Attention Network for Medical Image Segmentation 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-
-by Kun Wang, Xiaohong Zhang, Xiangbo Zhang et al.
+> **Authors:** 
+> Kun Wang,
+> Xiaohong Zhang,
+> Xiangbo Zhang,
+> Yuting Lu,
+> Sheng Huang,
+>  Dan Yang
 <!-- 
 ![gif](./fig/2.gif) -->
-
+## 0. Preface
 - **Submitted to the journal of " Pattern Recognition " （Under Review）**
 ### 1.1. 🔥NEWS🔥 :
 - [2021/04/22]:fire: Release the inference code!
