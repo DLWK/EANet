@@ -10,7 +10,7 @@
 <!-- 
 ![gif](./fig/2.gif) -->
 ## 0. Preface
-- **Submitted to the journal of " Pattern Recognition " （Under Review）**
+- [2021/04/22]:**Submitted to the journal of " Pattern Recognition " （Under Review）**
 ### 1.1. 🔥NEWS🔥 :
 - [2021/04/22]:fire: Release the inference code!
 - [2021/04/20] Create repository.
