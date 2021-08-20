@@ -38,7 +38,7 @@ Download the datasets and unzip them into `data` folder
  python3 train.py
 ```
 ## Overview
-### 1.2. Introduction
+### 1.2. Abstract
 Accurate and automatic segmentation of medical images can greatly assist the
 clinical diagnosis and analysis. However, it remains a challenging task due to (1)
 the diversity of scale in the medical image targets and (2) the complex context
