@@ -16,6 +16,7 @@
 - [2021/04/22]:**Submitted to the journal of " Pattern Recognition " （Under Review）**
 - [2021/08/27]: **(PR2021 Major Revision)**
 - [2021/12/20]: **(PR2021 Minor Revision)**
+- [2022/3/7]: **(PR2021 Accept)**
 ### 1.1. 🔥NEWS🔥 :
 - [2021/04/22]:fire: Release the inference code!
 - [2021/04/20] Create repository.
