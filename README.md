@@ -12,11 +12,7 @@
 >  Dan Yang
 <!-- 
 ![gif](./fig/2.gif) -->
-## 0. Preface
-- [2021/04/22]:**Submitted to the journal of " Pattern Recognition " （Under Review）**
-- [2021/08/27]: **(PR2021 Major Revision)**
-- [2021/12/20]: **(PR2021 Minor Revision)**
-- [2022/3/7]: **(PR2021 Accept)**
+
 ### 1.1. 🔥NEWS🔥 :
 - [2021/04/22]:fire: Release the inference code!
 - [2021/04/20] Create repository.
@@ -111,7 +107,17 @@ regression module (MPR). D5 ∼ D1 denote the feature maps of each decoder block
 and even rows show the baseline results without or with MPR, respectively.
     </em>
 </p>
-
+## Citation
+- If you find this work is helpful, please cite our paper
+```
+@article{wang2022eanet,
+  title={EANet: Iterative Edge Attention Network for Medical Image Segmentation},
+  author={Wang, Kun and Zhang, Xiaohong and Zhang, Xiangbo and Lu, Yuting and Huang, Sheng and Yang, Dan},
+  journal={Pattern Recognition},
+  pages={108636},
+  year={2022},
+  publisher={Elsevier}
+```
 
 
 
