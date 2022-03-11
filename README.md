@@ -107,6 +107,10 @@ regression module (MPR). D5 ∼ D1 denote the feature maps of each decoder block
 and even rows show the baseline results without or with MPR, respectively.
     </em>
 </p>
+
+
+
+
 ## Citation
 - If you find this work is helpful, please cite our paper
 ```
@@ -118,12 +122,6 @@ and even rows show the baseline results without or with MPR, respectively.
   year={2022},
   publisher={Elsevier}
 ```
-
-
-
-
-# Tips
-:fire:If you have any questions about our work, please do not hesitate to contact us by emails.
 
 
 **[⬆ back to top](#0-preface)**
