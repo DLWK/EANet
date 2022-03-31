@@ -3,21 +3,21 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torchvision
 import numpy as np
-from lib.nn import SynchronizedBatchNorm2d
-from smoothgrad import generate_smooth_grad
-from guided_backprop import GuidedBackprop
-from vanilla_backprop import VanillaBackprop
-from misc_functions import (get_example_params,
-                            convert_to_grayscale,
-                            save_gradient_images,
-                            get_positive_negative_saliency)
+# from lib.nn import SynchronizedBatchNorm2d
+# from smoothgrad import generate_smooth_grad
+# from guided_backprop import GuidedBackprop
+# from vanilla_backprop import VanillaBackprop
+# from misc_functions import (get_example_params,
+#                             convert_to_grayscale,
+#                             save_gradient_images,
+#                             get_positive_negative_saliency)
 import math
-from .attention_blocks import DualAttBlock
-from .resnet import BasicBlock as ResBlock
-from . import GSConv as gsc
+# from .attention_blocks import DualAttBlock
+from resnet import BasicBlock as ResBlock
+import GSConv  as  gsc
 import cv2
-from .norm import Norm2d
-from .dsc import *
+from norm import Norm2d
+from master import *
 from functools import partial
 nonlinearity = partial(F.relu, inplace=True)
 
@@ -40,7 +40,7 @@ class EANet(nn.Module):
         self.down3 = self.vgg_features[18:27]
         self.down4 = self.vgg_features[27:36]
 
-        self.wassp=SAPP(512)      #lastest ----  DSC module
+        self.wassp=DSC(512)      #lastest ----  DSC module
         self.up1 = up(1024, 256)
         self.up2 = up(512, 128)
         self.up3 = up(256, 64)
@@ -214,4 +214,13 @@ class EANet(nn.Module):
             return x0, x11, x22, x33, x44
         else:
             return x0, x_14, x_25, x_36, x_47, ss
+
+
+
+if __name__ == '__main__':
+
+    ras =EANet(n_channels=1, n_classes=1).cuda()
+    input_tensor = torch.randn(4, 1, 96, 96).cuda()
+    x0, x_14, x_25, x_36, x_47, ss= ras(input_tensor)
+    print(x0.shape)         
 #code by kun wang@2021.4.10

@@ -10,8 +10,8 @@ from torch.nn.modules.conv import _ConvNd
 from torch.nn.modules.utils import _pair
 import numpy as np
 import math
-from . import norm as mynn
-from . import custom_functions as myF
+import norm as mynn
+import custom_functions as myF
 
 class GatedSpatialConv2d(_ConvNd):
     def __init__(self, in_channels, out_channels, kernel_size=1, stride=1,
