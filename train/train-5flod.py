@@ -5,7 +5,7 @@ import torch.nn as nn
 import torch
 from .models import  EANet
 from torchvision import transforms
-from utils.metric import *
+
 from evaluation import *
 
 
@@ -85,6 +85,7 @@ def train_net(net, device, train_data_path,test_data_path, fold, epochs=40, batc
             edge = edge.to(device=device, dtype=torch.float32)
             # 使用网络参数，输出预测结果
             pred, p1,p2,p3,p4,e= net(image)
+            loss1=criterion3(pred, label)
             loss2 = criterion3(p1, label)
             loss3 = criterion3(p2, label)
             loss4 = criterion3(p3, label)
