@@ -115,12 +115,14 @@ and even rows show the baseline results without or with MPR, respectively.
 - If you find this work is helpful, please cite our paper
 ```
 @article{wang2022eanet,
-  title={EANet: Iterative Edge Attention Network for Medical Image Segmentation},
+  title={EANet: Iterative edge attention network for medical image segmentation},
   author={Wang, Kun and Zhang, Xiaohong and Zhang, Xiangbo and Lu, Yuting and Huang, Sheng and Yang, Dan},
   journal={Pattern Recognition},
+  volume={127},
   pages={108636},
   year={2022},
   publisher={Elsevier}
+
 ```
 
 
