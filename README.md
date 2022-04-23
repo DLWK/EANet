@@ -122,7 +122,7 @@ and even rows show the baseline results without or with MPR, respectively.
   pages={108636},
   year={2022},
   publisher={Elsevier}
-
+}
 ```
 
 
